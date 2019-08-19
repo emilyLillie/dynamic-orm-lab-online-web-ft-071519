@@ -14,6 +14,7 @@ class InteractiveRecord
     column_names = []
     table_info.each do |row| 
       column_names << row["name"]
-      
+    end 
+    column_names.compact
   
 end
